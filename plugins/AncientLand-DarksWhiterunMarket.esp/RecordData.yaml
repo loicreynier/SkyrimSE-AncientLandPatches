@@ -1,0 +1,26 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-DarksWhiterunMarket.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 11
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and Dark's Whiterun Market
+
+    Not required if using the No Whiterun doomstone version of Ancient Land
+
+
+    Remove the doomstone arch near Whiterun entrance
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

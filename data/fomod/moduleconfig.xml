@@ -1,0 +1,390 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Ancient Land Patches</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="Select Options">
+      <optionalFileGroups order="Explicit">
+        <group name="Patches" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Lantern Of Skyrim II">
+              <description>
+                Move a lantern out of the structure north of the Battle-Born farm
+              </description>
+              <files>
+                <file source="AncientLand-LoS.esp" destination="AncientLand-LoS.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Lanterns Of Skyrim II.esm" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Enhanced Landscapes">
+              <description>
+                Remove trees clipping with the ancient falmer ruins near Riverwood entry
+              </description>
+              <files>
+                <file source="AncientLand-EnhancedLandscapes.esp"
+                  destination="AncientLand-EnhancedLandscapes.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Enhanced Landscapes.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Dark Forests of Skyrim">
+              <description>
+                Remove trees clipping with the ancient falmer ruins near Riverwood entry
+              </description>
+              <files>
+                <file source="AncientLand-DarkForests.esp" destination="AncientLand-DarkForests.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Dark_Forests_FULL.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Dark's Whiterun market">
+              <description>
+                Remove the doomstone arch near Whiterun entrance
+              </description>
+              <files>
+                <file source="AncientLand-DarksWhiterunMarket.esp"
+                  destination="AncientLand-DarksWhiterunMarket.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="WhiterunMarket.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Ryn's Whiterun City Limits">
+              <description>
+                Remove the doomstone arch near Whiterun entrance
+                Remove a structure near Whitewatch tower
+              </description>
+              <files>
+                <file source="AncientLand-RynsWhiterunCityLimits.esp"
+                  destination="AncientLand-RynsWhiterunCityLimits.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="RynsWhiterunCityLimits.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="JK's Whiterun Outskirts">
+              <description>
+                Remove the doomstone arch near Whiterun entrance
+                Remove a structure near Whitewatch tower
+              </description>
+              <files>
+                <file source="AncientLand-JKsWhiterunOutskirts.esp"
+                  destination="AncientLand-JKsWhiterunOutskirts.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="JK's Whiterun's Outskirts.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Whiterun Valley">
+              <description>
+                Remove the doomstone arch near Whiterun entrance
+                Remove one of the structure on the right side of the road to Riverwood
+              </description>
+              <files>
+                <file source="AncientLand-WhiterunValley.esp"
+                  destination="AncientLand-WhiterunValley.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="WhiterunValley3.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Enhanced Solitude Docks">
+              <description>
+                Move the ancient falmer structures outside the village in front of the docks
+              </description>
+              <files>
+                <file source="AncientLand-EnhancedSolitudeDocks.esp"
+                  destination="AncientLand-EnhancedSolitudeDocks.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Enhanced Solitude Docks.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Solitude Expansion">
+              <description>
+                Move the ancient falmer structures outside the village in front of the docks
+              </description>
+              <files>
+                <file source="AncientLand-SolitudeExpansion.esp"
+                  destination="AncientLand-SolitudeExpansion.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Solitude Expansion.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Fancy Morthal Swamp Overhaul">
+              <description>
+                Remove fuggy clipping on the other side of Solitude docks
+              </description>
+              <files>
+                <file source="AncientLand-FancyMorthalSwampOverhaul.esp"
+                  destination="AncientLand-FancyMorthalSwampOverhaul.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Fancy Morthal Swamp Overhaul.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Arthmoor's Oakwood">
+              <description>
+                Remove one of the structures on the road to the west
+              </description>
+              <files>
+                <file source="AncientLand-Oakwood.esp" destination="AncientLand-Oakwood.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Oakwood.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Schlitzohr's Oakwood">
+              <description>
+                Remove the structures on the road to the west
+              </description>
+              <files>
+                <file source="AncientLand-AnotherOakwood.esp"
+                  destination="AncientLand-AnotherOakwood.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="AnotherOakwood.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Pirates of The North">
+              <description>
+                Remove the doomstones in Mitt
+              </description>
+              <files>
+                <file source="AncientLand-PiratesOfTheNorth.esp"
+                  destination="AncientLand-PiratesOfTheNorth.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="PiratesNorth.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Camp Argentum">
+              <description>
+                Move the dolmens outside the camp
+              </description>
+              <files>
+                <file source="AncientLand-CampArgentum.esp"
+                  destination="AncientLand-CampArgentum.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="CampArgentum.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Eli's Beginner Shack in Riverwood">
+              <description>
+                Move the ancient falmer ruins away from the house
+              </description>
+              <files>
+                <file source="AncientLand-EliRiverwoodShack.esp"
+                  destination="AncientLand-EliRiverwoodShack.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Eli_RiverwoodShack.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Leaps of Faith">
+              <description>
+                Move the ancient falmer ruins away from the house
+              </description>
+              <files>
+                <file source="AncientLand-LeapsOfFaith.esp"
+                  destination="AncientLand-LeapsOfFaith.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="LeapsOfFaith.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Northern Roads">
+              <description>
+                Remove a structure on the road southeast of Rorickstead near Gjukar's Monument
+              </description>
+              <files>
+                <file source="AncientLand-NorthernRoads.esp"
+                  destination="AncientLand-NorthernRoads.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Northern Roads.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>

@@ -1,0 +1,26 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-AnotherOakwood.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 19
+    NextFormID: 43520
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and Schlitzohr's Oakwood
+
+
+    Remove the structures on the road to the west
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  - Master: AnotherOakwood.esp
+    FileSize: 0
+  INTV: 1

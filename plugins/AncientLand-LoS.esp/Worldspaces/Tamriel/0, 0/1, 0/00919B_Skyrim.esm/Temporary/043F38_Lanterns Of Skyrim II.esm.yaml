@@ -1,0 +1,10 @@
+MutagenObjectType: PlacedObject
+FormKey: 043F38:Lanterns Of Skyrim II.esm
+Base: 02727A:Lanterns Of Skyrim II.esm
+Scale: 1.5
+EnableParent:
+  Reference: 00E16C:Lanterns Of Skyrim II.esm
+  Unknown: 0x000000
+Placement:
+  Position: 37766.016, 7248.044, -4976.7437
+  Rotation: 0, -0, 4.2832017

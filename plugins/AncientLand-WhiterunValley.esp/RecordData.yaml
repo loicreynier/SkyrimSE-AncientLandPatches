@@ -1,0 +1,34 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-WhiterunValley.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 17
+    NextFormID: 43520
+  Author: Lorkhan
+  Description: >+
+    Compatibility patch between Whiterun Valley - Hold Expansion and Ancient Land
+
+
+    Remove the doomstone arch near Whiterun entrance
+
+    Remove one of the structure on the right side of the road to Riverwood
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-PiratesOfTheNorth.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 22
+    NextFormID: 22812
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and Pirates of The North
+
+
+    This patch removes the doom stones in Mitt.
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

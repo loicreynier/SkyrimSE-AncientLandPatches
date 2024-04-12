@@ -1,0 +1,11 @@
+MutagenObjectType: PlacedObject
+FormKey: 000812:AncientLand2.esp
+MajorRecordFlagsRaw: 33792
+SkyrimMajorRecordFlags:
+- 0x400
+- VisibleWhenDistant
+Base: 01607B:Dawnguard.esm
+Scale: 1.8
+Placement:
+  Position: -60484.57, 90519.664, -14080
+  Rotation: 0.052359886, 1.7453292E-06, 0.7832092

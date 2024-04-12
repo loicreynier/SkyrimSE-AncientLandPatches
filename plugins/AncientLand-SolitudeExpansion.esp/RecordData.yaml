@@ -1,0 +1,28 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-SolitudeExpansion.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 17
+    NextFormID: 22879
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Solitude Expansion and Ancient Land
+
+
+    Move the ancient falmer structures outside the village in front of the docks
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

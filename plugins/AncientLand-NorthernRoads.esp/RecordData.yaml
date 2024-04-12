@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-NorthernRoads.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 9
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and Northern Roads
+
+
+    Remove a structure on the road southeast of Rorikstead near Gjukar's Monument
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

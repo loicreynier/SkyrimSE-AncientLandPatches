@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-WhiterunValleyNoDoomstones.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 9
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: >+
+    Compatibility patch between Whiterun Valley - Hold Expansion and Ancient Land
+
+
+    Remove one of the structure on the right side of the road to Riverwood
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

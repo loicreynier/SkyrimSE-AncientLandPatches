@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 00080B:AncientLand2.esp
+Base: 018B38:Dawnguard.esm
+Scale: 1.67
+Placement:
+  Position: 16643.256, -50243.297, 744
+  Rotation: 0.30083716, 6.2087994, 5.636823

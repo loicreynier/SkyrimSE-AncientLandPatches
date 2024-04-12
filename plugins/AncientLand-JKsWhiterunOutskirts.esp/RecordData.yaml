@@ -1,0 +1,26 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-JKsWhiterunOutskirts.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 13
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and JK's Whiterun Outskirts
+
+
+    Remove the doomstone arch near Whiterun entrance
+
+    Remove a structure near the Whitewatch Tower
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

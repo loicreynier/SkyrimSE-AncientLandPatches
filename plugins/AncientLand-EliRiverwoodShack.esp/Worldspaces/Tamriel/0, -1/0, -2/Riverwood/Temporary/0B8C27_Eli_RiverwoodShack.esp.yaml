@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 0B8C27:Eli_RiverwoodShack.esp
+Base: 04B016:Skyrim.esm
+Scale: 1.32
+LocationReference: 013163:Skyrim.esm
+Placement:
+  Position: 18240, -49024, 192
+  Rotation: 0, -0, 0.6000008

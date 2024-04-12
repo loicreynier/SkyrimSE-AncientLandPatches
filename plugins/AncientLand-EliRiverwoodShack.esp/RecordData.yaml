@@ -1,0 +1,30 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-EliRiverwoodShack.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 22
+    NextFormID: 43520
+  Author: Lorkhan
+  Description: Compatibility patch between Elianora's Beginner's Shack and Ancient Land
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  - Master: Eli_RiverwoodShack.esp
+    FileSize: 0
+  INTV: 1

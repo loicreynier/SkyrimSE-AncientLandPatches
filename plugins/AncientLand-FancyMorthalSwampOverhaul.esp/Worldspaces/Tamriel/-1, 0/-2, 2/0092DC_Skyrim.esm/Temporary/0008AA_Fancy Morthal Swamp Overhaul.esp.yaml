@@ -1,0 +1,11 @@
+MutagenObjectType: PlacedObject
+FormKey: 0008AA:Fancy Morthal Swamp Overhaul.esp
+MajorRecordFlagsRaw: 34816
+SkyrimMajorRecordFlags:
+- InitiallyDisabled
+- VisibleWhenDistant
+Base: 0008B6:Fancy Morthal Swamp Overhaul.esp
+Scale: 1.26
+Placement:
+  Position: -60338.883, 90488.32, -13741.795
+  Rotation: 0, -0, 0.21770726

@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 000D9D:AncientLand2.esp
+IsDeleted: True
+MajorRecordFlagsRaw: 32800
+SkyrimMajorRecordFlags:
+- Deleted
+- VisibleWhenDistant

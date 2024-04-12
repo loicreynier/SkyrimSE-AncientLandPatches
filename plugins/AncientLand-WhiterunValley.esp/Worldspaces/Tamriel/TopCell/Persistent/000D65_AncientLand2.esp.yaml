@@ -1,0 +1,12 @@
+MutagenObjectType: PlacedObject
+FormKey: 000D65:AncientLand2.esp
+MajorRecordFlagsRaw: 68608
+SkyrimMajorRecordFlags:
+- 0x400
+- InitiallyDisabled
+- 0x10000
+Base: 0C1ADD:Skyrim.esm
+Scale: 2.3
+Placement:
+  Position: 13097.061, -10909.149, -4829.5737
+  Rotation: 5.9082713, 6.25848, 6.2757573

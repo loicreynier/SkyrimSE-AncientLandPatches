@@ -1,0 +1,22 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-EnhancedSolitudeDocks.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Stats:
+    Version: 1.7
+    NumRecords: 17
+    NextFormID: 22879
+  Author: Lorkhan
+  Description: Compatibility patch between Enchanced Solitude Dock and Ancient Land
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: AncientLand2.esp
+    FileSize: 0
+  INTV: 1

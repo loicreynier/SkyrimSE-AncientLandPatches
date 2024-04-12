@@ -1,0 +1,26 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: AncientLand-FancyMorthalSwampOverhaul.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 11
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: >-
+    Compatibility patch between Ancient Land and Fancy Morthal Swamp Overhaul
+
+
+    Remove fuggy clipping on the other side of Solitude docks
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Fancy Morthal Swamp Overhaul.esp
+    FileSize: 0
+  INTV: 1
