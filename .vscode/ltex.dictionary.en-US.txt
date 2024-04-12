@@ -21,3 +21,5 @@ Morthal
 Whitewatch
 Rorickstead
 Gjukar
+Doomstones
+Doomstone
